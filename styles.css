@@ -11,15 +11,16 @@ nav {
     justify-content: space-between;
 }
 
-ul {
+
+.ul-list {
+    list-style: none;
+    column-gap: 136px;
     display: flex;
-    list-style-type: none;
-    column-gap: 140px;
     font-weight: 600;
     font-size: 19px;
 }
 
-.ul-list li{
+.ul-list li {
     padding-bottom: 15px;
 }
 
@@ -27,47 +28,61 @@ img[alt="menu"] {
     display: none;
 }
 
-.display{ 
-    display: block;
-}
+
 
 /* nav and ul media query  */
 @media screen and (max-width: 1200px) and (min-width:992px) {
-    ul {
-        display: none;
-    }
+
+
     .ul-list {
-        position: absolute;
-        top: 84px;
-        right: 24px;
-        border: 2px solid black;
-        padding: 106px;
-        border-radius: 10px;
-        font-size: 38px;
-        text-align: center;
-        z-index: 1;
-        background-color: white;
+      display: none;
     }
+
     img[alt="menu"] {
         display: block;
     }
+    .display {
+        display: block;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        column-gap: 136px;
+        font-weight: 600;
+        font-size: 18px;
+        position: absolute;
+        top: 91px;
+        font-size: 36px;
+        right: 35px;
+        text-align: center;
+        padding: 118px;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: white;
+    }
+
 }
 
 @media screen and (max-width: 992px) and (min-width:786px) {
-    ul {
-        display: none;
-    }
-
     .ul-list {
+        display: none;
+      }
+
+    .display {
+        display: block;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        column-gap: 136px;
+        font-weight: 600;
+        font-size: 18px;
         position: absolute;
-        top: 84px;
-        right: 24px;
-        border: 2px solid black;
-        padding: 106px;
-        border-radius: 10px;
-        font-size: 38px;
+        top: 91px;
+        font-size: 36px;
+        right: 35px;
         text-align: center;
-        z-index: 1;
+        padding: 118px;
+        border: 3px solid black;
+        border-radius: 15px;
         background-color: white;
     }
 
@@ -77,22 +92,30 @@ img[alt="menu"] {
 }
 
 @media screen and (max-width: 786px) and (min-width:600px) {
-    ul {
-        display: none;
-    }
 
     .ul-list {
+        display: none;
+      }
+
+    .display {
+        display: block;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        column-gap: 136px;
+        font-weight: 600;
+        font-size: 18px;
         position: absolute;
-        top: 84px;
-        right: 24px;
-        border: 2px solid black;
-        padding: 106px;
-        border-radius: 10px;
-        font-size: 38px;
+        top: 91px;
+        font-size: 36px;
+        right: 35px;
         text-align: center;
-        z-index: 1;
+        padding: 118px;
+        border: 3px solid black;
+        border-radius: 15px;
         background-color: white;
     }
+
 
     img[alt="menu"] {
         display: block;
@@ -100,23 +123,31 @@ img[alt="menu"] {
 }
 
 @media screen and (max-width: 600px) {
-    ul {
-        display: none;
-    }
+
 
     .ul-list {
-        position: absolute;
-        top: 84px;
-        right: 24px;
-        border: 2px solid black;
-        padding: 106px;
-        border-radius: 10px;
-        font-size: 38px;
-        text-align: center;
-        z-index: 1;
-        background-color: white;
-
+      display: none;
     }
+
+    .display {
+        display: block;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        column-gap: 136px;
+        font-weight: 600;
+        font-size: 18px;
+        position: absolute;
+        top: 91px;
+        font-size: 36px;
+        right: 35px;
+        text-align: center;
+        padding: 118px;
+        border: 3px solid black;
+        border-radius: 15px;
+        background-color: white;
+    }
+
 
     img[alt="menu"] {
         display: block;
@@ -140,7 +171,7 @@ img[alt="menu"] {
 
 .background-content h1 {
     padding-bottom: 25px;
-    font-size: 59px;
+    font-size: 56px;
     color: #232259;
     width: 78%;
     line-height: 88px;
@@ -413,10 +444,12 @@ img[alt="product"] {
     .world-desc {
         width: 100%;
     }
+
     .up-products h4 {
         width: 100%;
     }
-    .down-products h4{
+
+    .down-products h4 {
         width: 100%;
     }
 }
@@ -437,10 +470,12 @@ img[alt="product"] {
     .world-desc {
         width: 100%;
     }
+
     .up-products h4 {
         width: 100%;
     }
-    .down-products h4{
+
+    .down-products h4 {
         width: 100%;
     }
 }
@@ -461,10 +496,12 @@ img[alt="product"] {
     .world-desc {
         width: 100%;
     }
+
     .up-products h4 {
         width: 100%;
     }
-    .down-products h4{
+
+    .down-products h4 {
         width: 100%;
     }
 }
@@ -485,10 +522,12 @@ img[alt="product"] {
     .world-desc {
         width: 100%;
     }
-     .up-products h4 {
+
+    .up-products h4 {
         width: 100%;
     }
-    .down-products h4{
+
+    .down-products h4 {
         width: 100%;
     }
 }
@@ -620,7 +659,7 @@ img[alt="client"]:hover {
 
 input[name="user-email"] {
     padding: 23px;
-    width: 444px;
+    width: 433px;
     background-color: #dcdce7;
     border-style: none;
     border-radius: 10px;
@@ -841,29 +880,33 @@ button[name="contact-footer-btn"] {
 
 /* icons media query */
 
-@media  screen and (max-width: 1200px) and (min-width:992px) {
-    .icons{
+@media screen and (max-width: 1200px) and (min-width:992px) {
+    .icons {
         width: 100%;
     }
-    
+
 }
-@media  screen and (max-width: 992px) and (min-width:786px) {
-    .icons{
+
+@media screen and (max-width: 992px) and (min-width:786px) {
+    .icons {
         width: 100%;
     }
-    
+
 }
-@media  screen and (max-width: 786px) and (min-width:600px) {
-    .icons{
+
+@media screen and (max-width: 786px) and (min-width:600px) {
+    .icons {
         width: 100%;
     }
-    
+
 }
-@media  screen and (max-width: 600px){
-    .icons{
+
+@media screen and (max-width: 600px) {
+    .icons {
         width: 100%;
     }
-    .radius{
+
+    .radius {
         padding-left: 7px;
     }
 }
