@@ -659,7 +659,7 @@ img[alt="client"]:hover {
 
 input[name="user-email"] {
     padding: 23px;
-    width: 433px;
+    width: 375px;
     background-color: #dcdce7;
     border-style: none;
     border-radius: 10px;
@@ -735,7 +735,7 @@ input[name="user-email"] {
 
 .subscribe-btn-div {
     margin-top: -56px;
-    margin-left: 275px;
+    margin-left: 218px;
 }
 
 button[name="subscribe-btn"] {
