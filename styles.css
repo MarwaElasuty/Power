@@ -551,7 +551,7 @@ img[alt="product"] {
     line-height: 55px;
     color: #454545;
     text-align: center;
-    width: 52%;
+    width: 49%;
     font-size: 20px;
     margin: auto;
 }
@@ -607,10 +607,16 @@ img[alt="product"] {
     margin-top: 25px;
     display: flex;
     justify-content: center;
-    column-gap: 47px;
+    column-gap: 57px;
     width: 100;
     row-gap: 20px;
     flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.hover > h4{
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .client-info {
@@ -629,6 +635,10 @@ img[alt="client"]:hover {
     border: 5px solid #7473c5;
 }
 
+/* img[alt="client"]:hover {
+    border: 5px solid #7473c5;
+} */
+
 
 .help-support {
     display: flex;
@@ -645,8 +655,9 @@ img[alt="client"]:hover {
 }
 
 .help-desc>h3 {
-    font-size: 61px;
+    font-size: 55px;
     font-weight: 600;
+    
 }
 
 .help-desc>p {
@@ -654,7 +665,7 @@ img[alt="client"]:hover {
     color: #454545;
     width: 88%;
     line-height: 32px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 input[name="user-email"] {
