@@ -925,7 +925,9 @@ img[alt="help"] {
         margin-top: -54px;
         margin-left: 208px;
     }
-   
+    .clients > div{
+        width: 32%;
+    }
 }
 
 
