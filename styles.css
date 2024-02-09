@@ -53,7 +53,7 @@ img[alt="menu"] {
         font-size: 36px;
         right: 14px;
         text-align: center;
-        padding: 97px;
+        padding: 36px;
         border: 3px solid black;
         border-radius: 15px;
         background-color: white;
@@ -78,7 +78,7 @@ img[alt="menu"] {
         font-size: 36px;
         right: 14px;
         text-align: center;
-        padding: 97px;
+        padding: 36px;
         border: 3px solid black;
         border-radius: 15px;
         background-color: white;
@@ -107,7 +107,7 @@ img[alt="menu"] {
         font-size: 36px;
         right: 14px;
         text-align: center;
-        padding: 97px;
+        padding: 36px;
         border: 3px solid black;
         border-radius: 15px;
         background-color: white;
@@ -138,7 +138,7 @@ img[alt="menu"] {
         font-size: 36px;
         right: 14px;
         text-align: center;
-        padding: 97px;
+        padding: 36px;
         border: 3px solid black;
         border-radius: 15px;
         background-color: white;
@@ -316,9 +316,9 @@ button[name="watch"] {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    column-gap: 23px;
-    row-gap: 20px;
-    padding: 28px;
+    column-gap: 18px;
+    row-gap: 34px;
+    padding: 7px;
 }
 
 
@@ -354,7 +354,7 @@ button[name="watch"] {
     padding: 40px;
     column-gap: 54px;
     row-gap: 25px;
-    margin-top: 82px;
+    margin-top: 30px;
     margin-bottom: 90px;
 }
 
@@ -425,7 +425,7 @@ button[name="watch"] {
 
 
 .right-products {
-    width: 36%;
+    width: 48%;
 }
 
 img[alt="bitmap"] {
@@ -558,7 +558,7 @@ img[alt="product"] {
     font-size: 50px;
     font-weight: 700;
     text-align: center;
-    width: 25%;
+    width: 30%;
     margin: auto;
 }
 
@@ -569,7 +569,7 @@ img[alt="product"] {
     text-align: center;
     font-size: 20px;
     margin: auto;
-    width: 51%;
+    width: 87%;
 }
 
 /* feedback media query */
@@ -703,7 +703,7 @@ img[alt="client"]:hover {
 
 input[name="user-email"] {
     padding: 23px;
-    width: 496px;
+    width: 433px;
     background-color: #dcdce7;
     border-style: none;
     border-radius: 10px;
@@ -729,6 +729,7 @@ input[name="user-email"] {
     column-gap: 25px;
     flex-wrap: wrap;
     margin-bottom: 25px;
+    row-gap: 20px;
 }
 
 .up-help-cards p {
@@ -765,7 +766,7 @@ input[name="user-email"] {
     justify-content: center;
     column-gap: 25px;
     flex-wrap: wrap;
-    padding-top: 45px;
+    row-gap: 20px;
 
 }
 
@@ -779,13 +780,12 @@ input[name="user-email"] {
 
 .subscribe-btn-div {
     margin-top: -56px;
-    margin-left: 320px;
-    
+    margin-left: 300px;
 }
 
 button[name="subscribe-btn"] {
     padding: 10px;
-    width: 145px;
+    width: 120px;
     border-radius: 15px;
     background-color: #7473c5;
     color: white;
@@ -831,7 +831,12 @@ img[alt="help"] {
         margin-top: -54px;
         margin-left: 208px;
     }
-  
+    .up-help-cards>div{
+        width: 43%;
+    }
+    .down-help-cards>div{
+        width: 43%;
+    }
    
 }
 
@@ -861,6 +866,12 @@ img[alt="help"] {
     .subscribe-btn-div {
         margin-top: -54px;
         margin-left: 208px;
+    }
+    .up-help-cards>div{
+        width: 100%;
+    }
+    .down-help-cards>div{
+        width: 100%;
     }
    
 }
@@ -895,6 +906,12 @@ img[alt="help"] {
     .clients > div{
         width: 19%;
     }
+    .up-help-cards>div{
+        width: 100%;
+    }
+    .down-help-cards>div{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -928,11 +945,17 @@ img[alt="help"] {
     .clients > div{
         width: 32%;
     }
+    .up-help-cards>div{
+        width: 100%;
+    }
+    .down-help-cards>div{
+        width: 100%;
+    }
 }
 
 
 footer {
-    padding: 95px;
+    padding: 65px;
     background-color: #232259;
     color: white;
 }
@@ -958,13 +981,14 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: 20px;
+    align-items: center;
 }
 
 .terms {
     display: flex;
-    column-gap: 119px;
+    column-gap: 25px;
     flex-wrap: wrap;
-    row-gap: 20px;
+    row-gap: 36px;
     font-size: 21px;
 
 }
